@@ -4,8 +4,8 @@ body {
 
 td {
     border: 1px solid black;
-    height: 30px;
-    width: 30px;
+    width: 60px;
+    height: 60px;
 }
 img {
     width: 250px;
@@ -13,15 +13,101 @@ img {
 img:hover {
     border: 5px solid black;
 }
-div {
-    width: 100%;
+.red {
+    width: 0%;
     height: 100%;
     background: red;
 }
-div {
+.toRight:hover div {
     width: 100%;
+    animation: widthEnlarge 3s;
+    background: pink;
+}
+.toLeft {
+    position: relative;
+}
+.toLeft:hover div {
+    width: 100%;
+    animation: widthEnlarge 3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: yellow;
+}
+.toDown {
+    position: relative;
+}
+.toDown:hover div {
     height: 100%;
-    background: red;
+    animation: heightEnlarge 3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: green;
+}
+.toUp {
+    position: relative;
+}
+.toUp:hover div {
+    height: 100%;
+    animation: heightEnlarge 3s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: brown;
+}
+.toLeft50in {
+    position: relative;
+}
+.toLeft50in:hover div {
+    width: 50%;
+    animation: widthEnlarge50in 3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: grey;
+}
+.toRight50in:hover div {
+    width: 50%;
+    animation: widthEnlarge50in 3s;
+    background: grey;
+}
+/* Nestrādā "grey" krāsa */
+
+@keyframes widthEnlarge {
+    0% {
+        width:0;
+    }
+    100% {
+        width:100%;
+    }
+}
+@keyframes heightEnlarge {
+    0% {
+        height:0;
+    }
+    100% {
+        height:100%;
+    }
+}
+@keyframes widthEnlarge50in {
+    0% {
+        width:0;
+    }
+    50% {
+        width:50%;
+    }
+}
+#field-email {
+    background: #272713;
+    color: #ffffff;
+    padding: 10px;
+    border: 4px double #ffffff;
+    border-radius: 10px;
+}
+#field-email:focus {
+    outline: none;
+    background: #234543;
 }
 .myDiv0 {
     width: 100%;
@@ -54,5 +140,5 @@ div {
     background: grey;
 }
 .larger {
-    height: 60px;
+    height: 120px;
 }
