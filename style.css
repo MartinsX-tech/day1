@@ -56,24 +56,30 @@ img:hover {
     left: 0;
     background: brown;
 }
-.toLeft50in {
+.toMiddle {
     position: relative;
 }
-.toLeft50in:hover div {
+.toMiddle:hover div {
     width: 50%;
-    animation: widthEnlarge50in 3s;
+    height: 100%;
+    animation: widthEnlargeMiddle 3s;
     position: absolute;
     top: 0;
     right: 0;
     background: grey;
 }
-.toRight50in:hover div {
-    width: 50%;
-    animation: widthEnlarge50in 3s;
-    background: grey;
+.toOut {
+    position: relative;
 }
-/* Nestrādā "grey" krāsa */
-
+.toOut:hover div {
+    width: 50%;
+    height: 100%;
+    animation: widthEnlargeMiddle 3s;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    background: purple;
+}
 @keyframes widthEnlarge {
     0% {
         width:0;
@@ -90,7 +96,7 @@ img:hover {
         height:100%;
     }
 }
-@keyframes widthEnlarge50in {
+@keyframes widthEnlargeMiddle {
     0% {
         width:0;
     }
@@ -141,4 +147,10 @@ img:hover {
 }
 .larger {
     height: 120px;
+}
+.left {
+    left:0;
+}
+.leftTwo {
+    left:50%;
 }
