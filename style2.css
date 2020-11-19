@@ -1,0 +1,105 @@
+body {
+    background: skyblue;
+}
+
+td {
+    border: 0px solid white;
+}
+.svg-images {
+    display: flex;
+    justify-content: space-between;
+  }
+.background1 {
+    background: white;
+}
+.margin0 {
+    margin-top: 10px;
+    margin-left: 14px;
+}
+.margin1 {
+    margin-top: 10px;
+}
+.margin2 {
+    margin-top: 19px;
+    margin-left: 100px;
+}
+.margin3 {
+    margin-right: 113.5px;
+}
+.popUp-icon1 {
+    position: absolute;
+    top: 10px;
+    left: 616px;
+}
+.popUp-icon2 {
+    position: absolute;
+    top: 10px;
+    left: 878px;
+}
+.popUp-icon0 {
+    position: absolute;
+    top: 8px;
+    left: 1367px;
+}
+.margin4 {
+    margin-top: 12px;
+    margin-left: 4px;
+}
+.margin5 {
+    margin-right: 14px;
+}
+.margin6 {
+    margin-top: 14px;
+}
+.margin7 {
+    margin-left: 0.1px;
+    margin-top: 24px;
+}
+.popUp-icon3 {
+    position: absolute;
+    top: 30px;
+    left: 1418px;
+}
+.picture {
+    position: relative;
+    width: 1448px;
+    height: 61px;
+}
+/* --- */
+.input-container {
+    position: relative;
+    width: 281px;
+    height: 40px;
+  }
+  input {
+    width: 100%;
+    height: 100%;
+    background: #f1f2f5;
+    border-radius: 100px;
+    border: 0;
+  }
+  input::placeholder {
+    font-size: 15px;
+    color: #66676b;
+  }
+  .search-field {
+    width: 100%;
+    height: 100%;
+    background: #f1f2f5;
+    border-radius: 100px;
+    border: 0;
+    padding: 11px 18px 11px 36px;
+  }
+  .search-field:focus {
+    outline: none;
+    background: #cecece;
+  }
+  .search-field::placeholder {
+    font-size: 15px;
+    color: #66676b;
+  }
+  .search-icon {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+  }
