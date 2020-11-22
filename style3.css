@@ -1,0 +1,66 @@
+body {
+    background: #fafafa;
+  }
+  main {
+    max-width: 877px;
+    min-width: 480px;
+    background: #cacaca;
+    min-height: 100px;
+    padding: 16px 32px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 375fr 502fr;
+  }
+  .column-left > div {
+    height: 100px;
+    background: #fff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 0 16px 16px 0;
+  }
+  .column-posts > div {
+    min-height: 100px;
+    background: #fff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 0 0 16px 0;
+  }
+  .scrollable {
+    overflow-x: scroll;
+  }
+  .post-gallery {
+    width: 300%;
+  }
+  .post-image {
+    display: inline-block;
+    width: 300px;
+    height: 375px;
+  }
+  .post-image img {
+    width: 100%;
+  }
+  /* --- */
+  .pageTransparency {
+    min-height: 195px;
+    padding: 16px 16px 16px 16px;
+  }
+  .configOne {
+    display: flex;
+    justify-content: space-between;
+  }
+  .configOneX{
+    margin-left: 8px;
+  }
+  .configTwo {
+    display: flex;
+    justify-content: start;
+  }
+  .configTwoX{
+    margin-left: 11px;
+  }
+  .configThree {
+      margin-right: 38px;
+  }
+  .configThreeX {
+      margin-top: -9px;
+  }
